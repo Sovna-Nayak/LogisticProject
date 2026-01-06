@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card, CardContent } from "./Card";
+import { Card, CardContent } from "./card";
 
 const ShippingCalculator = () => {
   const [boxes, setBoxes] = useState([
