@@ -16,7 +16,7 @@ const Newsletter = () => {
       <div className="max-w-5xl mx-auto px-4 text-center text-white">
 
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
-          Stay Updated with First Track
+          Stay Updated with  Shopy Courier
         </h2>
 
         <p className="text-lg md:text-xl opacity-90 mb-10">
