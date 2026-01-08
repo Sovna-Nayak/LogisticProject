@@ -59,11 +59,9 @@ const Contact = () => {
                 <MapPin />Bhadrak,Dhamanagra, Odisha-751007
               </p>
               <p className="flex gap-2">
-                <Phone /> +91-8240987658
+                <Phone /> 01234
               </p>
-              <p className="flex gap-2">
-                <Phone /> +91-9040170727
-              </p>
+            
               <p className="flex gap-2">
                 <Mail /> info@shopycourier.site
               </p>

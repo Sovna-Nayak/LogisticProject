@@ -78,7 +78,7 @@ import Tracking from "./pages/Tracking";
 import Blogs from "./pages/Blogs";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-
+import Pricing from "./pages/Pricing";
 function Home() {
   return (
     <>
@@ -107,6 +107,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+         <Route path="/pricing" element={<Pricing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
       </Routes>
