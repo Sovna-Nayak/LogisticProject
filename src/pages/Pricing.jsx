@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card, CardContent } from "../components/card";
+// import { Card, CardContent } from "../components/card";
 
 const Pricing = () => {
   const [boxes, setBoxes] = useState([
