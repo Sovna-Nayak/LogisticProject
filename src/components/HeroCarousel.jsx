@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // import { ChevronLeft, ChevronRight } from 'lucide-react';
-import  Button  from './Button';
+// import  Button  from './Button';
 
 const HeroCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
