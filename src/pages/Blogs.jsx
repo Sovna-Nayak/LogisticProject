@@ -26,8 +26,7 @@ const Blogs = () => {
             className="rounded-t-xl"
           />
           <div className="p-6">
-            <h3 className="font-s
-Shopy Courieremibold text-lg mb-2">
+            <h3 className="font-Shopy Courieremibold text-lg mb-2">
               Good Establish with Shopy Courier
             </h3>
             <p className="text-sm text-gray-600 mb-4">
@@ -46,8 +45,7 @@ Shopy Courieremibold text-lg mb-2">
           />
           <div className="p-6">
             <h3 className="font-semibold text-lg mb-2">
-              The Future of Logistics with AI and also 
-Shopy Courier
+              The Future of Logistics with AI and also Shopy Courier
             </h3>
             <p className="text-sm text-gray-600 mb-4">
               Discover how AI is changing logistics.

@@ -56,10 +56,10 @@ const Contact = () => {
 
             <div className="space-y-4 text-gray-700">
               <p className="flex gap-2">
-                <MapPin />Bhadrak,Dhamanagra, Odisha-751007
+                <MapPin />ABC, Odisha
               </p>
               <p className="flex gap-2">
-                <Phone /> 01234
+                <Phone /> +91 1234567890
               </p>
             
               <p className="flex gap-2">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Globe2, Building2, Ship, Package } from 'lucide-react';
-import { Card, CardContent } from './card';
+import { Card, CardContent } from './Card';
 
 const Capabilities = () => {
   const capabilities = [

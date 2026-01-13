@@ -79,7 +79,7 @@
 
 import React from "react";
 import { Shield, Lock, Clock, Headphones } from "lucide-react";
-import { Card, CardContent } from "./card"; // <-- important import
+import { Card, CardContent } from "./Card"; 
 
 const WhyChooseUs = () => {
   const features = [

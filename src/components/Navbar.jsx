@@ -150,9 +150,10 @@ const Navbar = () => {
         <div className="flex h-20 items-center justify-between">
           {/* LOGO */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-tr from-emerald-400 to-sky-500 rounded-lg flex items-center justify-center">
+            <img src="/Logo.png" alt="Logo" className="w-12 h-12 rounded-lg" />
+            {/* <div className="w-12 h-12 bg-gradient-to-tr from-emerald-400 to-sky-500 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">SC</span>
-            </div>
+            </div> */}
             <span className="text-white font-bold text-lg tracking-wide">
               Shopy Courier
             </span>

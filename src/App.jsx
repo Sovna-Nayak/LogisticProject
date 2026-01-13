@@ -70,6 +70,7 @@ import Newsletter from "./components/Newsletter";
 import Testimonials from "./components/Testimonials";
 import Partners from "./components/Partners";
 import CTA from "./components/CTA";
+import ScrollToTop from "./components/ScrollToTop";
 
 // Pages
 import Login from "./pages/Login";
@@ -79,6 +80,10 @@ import Blogs from "./pages/Blogs";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
+import FAQ from "./pages/FAQ";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfUse from "./pages/TermsOfUse";
+import RefundCancellation from "./pages/RefundCancellation";
 function Home() {
   return (
     <>
@@ -99,6 +104,7 @@ function Home() {
 function App() {
   return (
     <>
+      <ScrollToTop />   {/* 👈 ADD THIS */}
       <Navbar />
 
       <Routes>
@@ -107,7 +113,11 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-use" element={<TermsOfUse />} />
+        <Route path="/refund-cancellation" element={<RefundCancellation />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
       </Routes>

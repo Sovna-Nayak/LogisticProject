@@ -52,7 +52,7 @@
 
 
 import React from "react";
-import { Card, CardContent } from "./card"; // <-- important import
+import { Card, CardContent } from "./Card"; 
 
 const MissionVision = () => {
   const items = [
