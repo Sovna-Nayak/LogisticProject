@@ -9,7 +9,7 @@ const Testimonials = () => {
       image:
         "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80",
       quote:
-        "First Track Express has been an absolute pleasure to work with. Professional, reliable, and timely!"
+        "Shopy Courier Express has been an absolute pleasure to work with. Professional, reliable, and timely!"
     },
     {
       name: "Sneha",
