@@ -13,18 +13,30 @@ const Contact = () => {
   return (
     <>
       {/* HERO SECTION */}
-      <section
+          <section
+          className="min-h-[60vh] flex items-center justify-center bg-cover bg-center relative"
+          style={{
+            backgroundImage: "url('/images/contact-bg.jpg')",
+      }}
+    >
+      {/* <div className="absolute inset-0 bg-black/60" /> */}
+      <h1 className="relative text-white text-4xl md:text-5xl font-bold z-10">
+        Contact Us
+      </h1>
+    </section>
+
+      {/* <section
         className="h-[60vh] flex items-center justify-center bg-cover bg-center relative"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1581091215367-59ab6b1f3c5b')",
+            "url('/images/contact-bg.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black/50" />
         <h1 className="relative text-white text-4xl md:text-5xl font-bold">
           Contact Us
         </h1>
-      </section>
+      </section> */}
 
       {/* CONTACT FORM */}
       <section className="py-20 bg-gray-50">

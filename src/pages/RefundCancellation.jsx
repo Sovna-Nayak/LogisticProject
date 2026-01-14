@@ -127,9 +127,9 @@ const RefundCancellation = () => {
           </div>
         </section>
 
-        <p className="text-sm text-gray-500 mt-10">
+        {/* <p className="text-sm text-gray-500 mt-10">
           Last updated: 12/01/2026
-        </p>
+        </p> */}
       </div>
     </div>
   );

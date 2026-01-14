@@ -26,10 +26,10 @@ const Footer = () => {
               <div className="w-12 h-12 bg-gradient-to-tr from-emerald-400 via-sky-500 to-purple-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">SC</span>
               </div>
-              <span className="font-bold text-lg">Shopy-Courier</span>
+              <span className="font-bold text-lg">Shopy Courier</span>
             </div>
             <p className="text-slate-300 leading-relaxed">
-              Shopy-Courier delivers fast, reliable, and seamless logistics
+              Shopy Courier delivers fast, reliable, and seamless logistics
               solutions, ensuring timely and secure shipments worldwide.
             </p>
           </div>

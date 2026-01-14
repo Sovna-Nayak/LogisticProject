@@ -21,10 +21,10 @@ const About = () => {
       <section className="max-w-7xl mx-auto px-6 py-16 text-center">
         <p className="text-gray-700 leading-relaxed max-w-4xl mx-auto">
           <strong>Shopy Courier</strong>, a proud venture of{" "}
-          <strong>Shopy Courier Pvt Ltd</strong>, is a
+          <strong>Shopy Courier</strong>, is a
           dedicated logistics platform delivering speed, safety, and
           operational excellence across the supply chain. Established in
-          Bhadrak, Odisha in <strong>January 7</strong>, we focus on
+          ABC, Odisha in <strong>January 7</strong>, we focus on
           next-generation tracking and reliable transport solutions.
         </p>
       </section>
